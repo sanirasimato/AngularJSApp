@@ -1,0 +1,13 @@
+// variables
+$basic-color: rgb(29, 29, 31);
+$main-text: #fff;
+
+@mixin flex-box($width,$flex-direction,$justify-content,$align-items,$isWrap) {
+    display: flex;
+    box-sizing: border-box;
+    width: $width;
+    flex-direction: $flex-direction;
+    justify-content: $justify-content;
+    align-items: $align-items;
+    flex-wrap:$isWrap;
+}
